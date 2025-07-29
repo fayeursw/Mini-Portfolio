@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAYEURS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/f.ico" type="image/x-icon" />
+
+</head>
+<body>
+    <header>
+<section class="base" id="base"></section>
+        
+        <nav class="Navbar">
+            <a href="#" class="header_title">FAYEURS</a>
+            
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#home">A propos</a></li>
+                    <li><a href="#Project">Projet</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+            <img src="assets/menu-btn.png" alt="menu-hamburger" class="menu-hamburger">
+        </nav>
+        
+    </header>
+
+    <section class="home" id="home">
+        <div>   
+            <h1>FAYEURS</h1>
+            <p>Développeur Francais <img src="assets/flag-france_1f1eb-1f1f7.png" alt="france" class="flag">  </p>
+        <div class="techniques_box">
+            <h2>Techniques</h2>
+            <div class="web">
+                <h3>WEB</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>SQL</li>
+                </ul>
+            <div class="bureau">
+                <h3>BUREAU</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                </ul>
+            <div class="jeux">
+                <h3>JEUX</h3>
+                <ul>
+                    <li>C#</li>
+                    <li>C++</li>
+                </ul>
+            </div>
+                
+            </div>
+            </div>
+            <div classe ></div>
+
+        </div>
+
+        
+    </section>
+
+    <section class="Project" id="Project">
+        <h2>Projets</h2>
+        <div class="project_box">
+            
+    <div class="project1">
+      <h3>Mini Portofolio</h3>
+      <p>Un site pour présenter vos compétences.</p>
+      <img class="preview" src="assets/Capture d'écran 2025-07-29 171921.png" alt="">
+      <a href=""><img src="assets/github-white-icon.webp" class="github" alt="github"></a>
+      
+      
+    </div>
+
+    <div class="project">
+      <h3>Cube-Lore</h3>
+      <p>Un serveur minecraft moddée.</p>
+      <div class="close">
+        <h3>Fermé</h3>
+      </div>
+    </div>
+  </div>
+    </section>
+
+
+    <section class="contact" id="Contact">
+        <h2>Contact</h2>
+        <h3 class="discord-t">DISCORD</h3>
+        <a href="https://discord.com/users/700072436678525131" target="_blank"><img src="assets/discord.logo.png" alt="discord" class="discord"></a>
+        <h3 class="github-t">GITHUB</h3>
+        <a href="https://github.com/fayeursw" target="_blank"><img src="assets/github-white-icon.webp" alt="github" class="github"></a>
+
+
+    <footer>
+        <p>© 2025 Fayeurs. All rights reserved.</p>
+        <p>Designed by Fayeurs</p>
+    </footer>    
+    </section>
+
+    
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menu-hamburger");
+    const navLinks = document.querySelector(".nav-links");
+    const body = document.body;
+
+    menuHamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu');
+        body.classList.toggle('no-scroll');
+    });
+
+    const links = document.querySelectorAll(".nav-links a");
+    links.forEach(link => {
+        link.addEventListener("click", () => {
+            navLinks.classList.remove('mobile-menu');
+            body.classList.remove('no-scroll');
+        });
+    });
+</script>
+    
+</html>

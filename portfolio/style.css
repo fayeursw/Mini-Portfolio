@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Modak&display=swap');
+
+
+    
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #0d0d0d;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent  2px);
+    background-size: 20px 20px;
+    overflow-x: hidden;
+    padding-top: 10vh;
+}
+
+.home {
+    color: white;
+    justify-content: center;  
+    position: relative ;
+    display : flex;
+    box-sizing: border-box;
+    
+}
+.home h1 {
+    color: rgb(255, 0, 0);
+    font-family: "Modak", system-ui;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 400;
+   
+
+}
+
+.techniques_box {
+    font-family: "Lexend Giga", system-ui;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: #0d0d0d8e;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+
+}
+
+.techniques_box ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    gap: 20px ;
+    padding-bottom: 40px;
+}
+
+.techniques_box ul li {
+    display: inline;
+    
+}
+
+
+
+
+.techniques_box h2 {
+    text-align: center;
+}
+
+.techniques_box .web h3 {
+    text-align: center; 
+}
+
+.sep {
+    align-self: center;
+}
+
+#home {
+    scroll-margin-top: 12vh;
+}
+
+
+
+
+.home p {
+    color: white;
+    font-family: "Lexend Giga", system-ui;
+    text-align: center;
+    font-size: 30px;
+    
+
+
+}
+
+.flag {
+    width: 45px;
+    height: 45px;
+    vertical-align: middle;
+    margin-bottom: 2px;
+    
+}
+
+.Project {
+  padding: 50px;
+  color: white;
+  font-family: "Lexend Giga", system-ui;
+  text-align: center;
+  
+}
+
+.Project h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.project_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 80px;
+  
+}
+
+.project {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+  width: 250px;
+  height: 500px;
+  background: linear-gradient(#e66465, #9198e5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.project:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255,255,255,0.3);
+}
+
+.project1 {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    width: 250px;
+    height: 500px;
+    background: linear-gradient(#e66465, #9198e5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.project1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255,255,255,0.3);
+}
+
+.project1 .preview {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.project1 .github {
+    margin-top: 50px;
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.close {
+    color: red;
+}
+
+footer {
+    padding-top: 200px;
+    color: white;
+}
+    
+.discord {
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+    margin-bottom: 2px;
+    transition: transform 0.3s ease
+}
+
+.discord:hover {
+    transform: scale(1.05);
+}
+
+.contact {
+    padding: 50px;
+    color: white;
+    font-family: "Lexend Giga", system-ui;
+    text-align: center;
+}
+.contact h2  {
+    color: white;
+    font-family: "Lexend Giga", system-ui;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+.github {
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+    margin-bottom: 2px;
+    transition: transform 0.3s ease
+}
+
+.github:hover {
+    transform: scale(1.05);
+
+}
+
+header {
+    background-color: #333;
+    color: white;
+    width: 100vw;
+    display: flex;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    height: 10vh;
+     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1000;
+    
+    
+}
+
+.header_title {
+    margin-left: 40px;
+    text-align: center ;
+    padding-right: 20px ;
+    font-family: "Modak", system-ui;
+    font-weight: 350;
+    Font-style: normal;
+    font-size: 3rem;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: rgb(243, 36, 0);
+}
+
+.header_title:hover {
+    transform: scale(1.1);
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none !important;
+    align-items: center;
+    margin-right: 40px;
+    
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+.Navbar .nav-links ul {
+    display: flex;
+}
+
+.Navbar .nav-links ul li {
+    margin:  0 20px;
+    display: flex;
+}
+
+
+li a {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: "Lexend Giga", system-ui;
+    color: white;
+    text-decoration: none;
+     transition: all 0.3s ease;
+}
+
+li a:hover {
+    color: rgb(255, 38, 0);
+    transform: scale(1.1);
+}
+
+.Navbar .nav-links ul li.active  a {
+    color: rgb(0, 4, 255);
+    margin:  0 50px;
+    display: flex;
+}
+
+.Navbar .menu-hamburger {
+    display: none;
+    position: absolute;
+    top:   20px;
+    right: 20px;
+    width: 50px;
+}
+
+
+.no-scroll {
+    overflow: hidden;
+}
+
+
+
+@media screen and (max-width : 1380px) {
+    .Navbar {
+        padding: 0;
+    }
+
+    .Navbar .menu-hamburger {
+        display: block;
+    }
+
+
+    .nav-links {
+        position: fixed;
+        background-color: rgba(164, 164, 167, 0.336);
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(10px);
+        z-index: 999;
+    
+        
+    }
+
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .Navbar .nav-links ul li {
+        margin: 100px 0;
+        font-size: 1.12em;
+    }
+
+    .mobile-menu {
+    margin-left: 0;
+
+}
+}
+
+
+.header_title a {
+    color: rgb(255, 38, 0);
+}
+
